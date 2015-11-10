@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bApostoli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Πατήστε για Email"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FE9A2E" />
+
+        <TextView
+            android:id="@+id/textKeimeno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Επικοινωνήστε μέσω Email ή μέσω τηλεφ΄ώνου για πληροφορίες."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bCallMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Τηλ: 2321023640"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FE9A2E" />
+
+        <TextView
+            android:id="@+id/textKeimeno2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Σέρρες, Υψηλάντου 4 3ος Οροφος"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/banner" />
+    </LinearLayout>
+
+</ScrollView>

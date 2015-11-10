@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Nick/Documents/Android%20Studio%20Projects/Pistopioisi%20Georgikon%20Farmakon/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="apotelesma"/>
+    <string name="app_name">Γεωργικά Φάρμακα</string>
+    <string name="app_name_2">Τέστ 2</string>
+    <string name="app_name_3">Τέστ 3</string>
+    <string name="app_name_4">Τέστ 4</string>
+    <string name="app_name_5">Τέστ 5</string>
+    <string name="app_name_6">Τέστ 6</string>
+    <string name="app_name_7">Τέστ 7</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="istoselida_link"><a href="http://www.kekpkm.gr/">www.kekpkm.gr</a></string>
+    <string name="lathos">Λάθος</string>
+    <string name="menu_settings">Settings</string>
+    <string name="result">Αποτέλεσμα:</string>
+    <string name="sosta">Σωστά</string>
+    <string name="str_next">Επόμενη</string>
+    <string name="title_activity_result">Αποτελέσματα</string>
+    <!-- From: file:/C:/Users/Nick/Documents/Android%20Studio%20Projects/Pistopioisi%20Georgikon%20Farmakon/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

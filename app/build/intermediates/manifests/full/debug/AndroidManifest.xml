@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pkm.georgikafarmaka"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pkm.georgikafarmaka.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.Erotimatologio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.Erotimatologio" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.Sxetika"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.Sxetika" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.Epikoinonia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.Epikoinonia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.SostaResult"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.SostaResult" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.SostaResult_2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.SostaResult_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.SostaResult_3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.SostaResult_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.SostaResult_4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.SostaResult_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.SostaResult_5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.SostaResult_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.SostaResult_6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.SostaResult_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.SostaResult_7"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.SostaResult_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.LathosResult"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.LathosResult" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.LathosResult_2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.LathosResult_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.LathosResult_3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.LathosResult_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.LathosResult_4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.LathosResult_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.LathosResult_5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.LathosResult_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.LathosResult_6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.LathosResult_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.LathosResult_7"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.triviality.LathosResult_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.QuizActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.triviality.QuizActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.QuizActivity_2"
+            android:configChanges="orientation"
+            android:label="@string/app_name_2"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.triviality.QuizActivity_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.QuizActivity_3"
+            android:configChanges="orientation"
+            android:label="@string/app_name_3"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.triviality.QuizActivity_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.QuizActivity_4"
+            android:configChanges="orientation"
+            android:label="@string/app_name_4"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.triviality.QuizActivity_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.QuizActivity_5"
+            android:configChanges="orientation"
+            android:label="@string/app_name_5"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.triviality.QuizActivity_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.QuizActivity_6"
+            android:configChanges="orientation"
+            android:label="@string/app_name_6"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.triviality.QuizActivity_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.QuizActivity_7"
+            android:configChanges="orientation"
+            android:label="@string/app_name_7"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.triviality.QuizActivity_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pkm.georgikafarmaka.ResultActivity"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name="com.pkm.georgikafarmaka.ResultActivity_2"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name="com.pkm.georgikafarmaka.ResultActivity_3"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name="com.pkm.georgikafarmaka.ResultActivity_4"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name="com.pkm.georgikafarmaka.ResultActivity_5"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name="com.pkm.georgikafarmaka.ResultActivity_6"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name="com.pkm.georgikafarmaka.ResultActivity_7"
+            android:label="@string/title_activity_result" />
+    </application>
+
+</manifest>

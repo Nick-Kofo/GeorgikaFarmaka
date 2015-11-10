@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ResultActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ΟΡΘΟΛΟΓΙΚΗ ΧΡΗΣΗ ΓΕΩΡΓΙΚΩΝ ΦΑΡΜΑΚΩΝ"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bErotimatologio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ερωτηματολόγιο"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bSxetika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Σχετικά"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bEpikoinonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Επικοινωνία"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <TextView
+                android:id="@+id/textIstoselida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web"
+                android:gravity="center"
+                android:text="@string/istoselida_link"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0040FF" />
+
+            <Button
+                android:id="@+id/bBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/banner"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

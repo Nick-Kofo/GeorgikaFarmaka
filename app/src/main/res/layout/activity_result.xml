@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textLastResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/result"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FE9A2E" />
+
+        <TextView
+            android:id="@+id/textApotelesma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/apotelesma"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FE9A2E" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+
+            <TextView
+                android:id="@+id/textResulttisekato"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bSosta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sostaClick"
+            android:text="@string/sosta"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#82FA58" />
+
+        <TextView
+            android:id="@+id/keno2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="         "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/bLathos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="lathosClick"
+            android:text="@string/lathos"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner" />
+
+</LinearLayout>

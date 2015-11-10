@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ResultActivity" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τέστ Ερωτήσεων Γεωργικών Φαρμάκων"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/bTest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τεστ 1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bTest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τεστ 2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bTest3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τεστ 3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bTest4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τεστ 4"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bTest5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τεστ 5"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bTest6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τεστ 6"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+            <Button
+                android:id="@+id/bTest7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Τεστ 7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FE9A2E" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Nick/Documents/Android%20Studio%20Projects/Pistopioisi%20Georgikon%20Farmakon/app/src/main/res/layout/erotimatologio.xml -->

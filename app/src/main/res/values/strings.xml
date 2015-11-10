@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Γεωργικά Φάρμακα</string>
+    <string name="app_name_2">Τέστ 2</string>
+    <string name="app_name_3">Τέστ 3</string>
+    <string name="app_name_4">Τέστ 4</string>
+    <string name="app_name_5">Τέστ 5</string>
+    <string name="app_name_6">Τέστ 6</string>
+    <string name="app_name_7">Τέστ 7</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="str_next">Επόμενη</string>
+    <string name="title_activity_result">Αποτελέσματα</string>
+    <string name="istoselida_link"><a href='http://www.kekpkm.gr/'>www.kekpkm.gr</a></string>
+    <string name="sosta">Σωστά</string>
+    <string name="lathos">Λάθος</string>
+    <string name="result">Αποτέλεσμα:</string>
+    <string name="apotelesma"></string>
+
+</resources>
